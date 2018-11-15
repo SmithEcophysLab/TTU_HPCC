@@ -1,4 +1,4 @@
-# Quanah setup
+# Quanah account setup
 
 In order to get up and running on Quanah you will need request an account.
 For TTU affiliates the account is free.
@@ -15,3 +15,9 @@ refer to or mimic instructions in the User Guide.
 Any issues can be directed to [hpccsupport@ttu.edu](mailto:hpccsupport@ttu.edu).
 
 Smith Lab specific issues can be directed to [Nick](mailto:nick.smith@ttu.edu).
+
+# Quanah log in
+
+You can log in to Quanah using your eRaider username and password via ssh.
+
+- ssh -x <em>your_ttu_user_id</em>@quanah.hpcc.ttu.edu
