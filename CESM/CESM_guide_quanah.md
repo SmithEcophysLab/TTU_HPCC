@@ -25,13 +25,13 @@ or create an issue on this GitHub repository.
 
 1. Sign in to quanah:
 
-	* <span style="color:red">ssh -x <em>your_ttu_user_id</em>@quanah.hpcc.ttu.edu</span>
+	* ssh -x <em>your_ttu_user_id</em>@quanah.hpcc.ttu.edu
 
 
 2. Run the following branch commands in your desired directory (copy/paste from here)
-	* <span style="color:red">git clone -b release-clm5.0 https://github.com/ESCOMP/ctsm.git clm5.0</span>
-	* <span style="color:red">cd clm5.0</span>
-	* <span style="color:red">./manage_externals/checkout_externals</span>
+	* git clone -b release-clm5.0 https://github.com/ESCOMP/ctsm.git clm5.0
+	* cd clm5.0
+	* ./manage_externals/checkout_externals
 
 
 
