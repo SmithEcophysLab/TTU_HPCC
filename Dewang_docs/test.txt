@@ -1,0 +1,20 @@
+./create_newcase --case firstTestCase --res GRID --compset COMPSET
+
+./query_config --grids g16_g16
+-/query_config --compsets C
+
+Could not find machine match for 'quanah.localdomain' or 'quanah'
+ERROR: Could not initialize machine object from /home/dewshah/my_cesm_sandbox/cime/config/cesm/machines/config_machines.xml or /home/dewshah/.cime/config_machines.xml
+
+export CIME_MODEL=cesm
+cd my_cesm_sandbox
+cd cime
+cd scripts
+
+
+> cd cime/scripts
+> ./create_newcase --case mycase --compset X --res f19_g16
+> cd mycase
+> ./case.setup
+> ./case.build
+> ./case.submit
